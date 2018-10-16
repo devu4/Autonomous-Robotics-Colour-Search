@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="object_search" name="object_search" type="object_search.py" output="screen"> 
+  </node>	
+  <node pkg="object_search" name="explore" type="explore.py" output="screen"> 
+  </node>
+
+</launch>
+
